@@ -1,0 +1,12 @@
+-- skills를 만들고, README.md를 만든 다음 작업
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/applewillsong2/skills.git
+git push -u origin main
+
+-- 폴더, 파일 생성후 그 다음부터는 다음만 반복
+git add *
+git commit -m "폴더와 파일 추가됨"
+git push
